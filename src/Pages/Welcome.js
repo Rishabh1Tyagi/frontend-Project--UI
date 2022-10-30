@@ -55,15 +55,13 @@ const Welcome = () => {
                 <input type="text" placeholder="Name" /><br/>
                 <input type="number" placeholder="Phone no" /><br/>
                 <input type="email" placeholder="Email Address" /><br/>
-                <textarea>Message</textarea><br/>
+                <textarea placeholder='Message' /><br/>
                 <button className={classes.send_btn}>Send</button>
             </main>
             </div>
         </div>
         <div>
-        <p>
          <footer></footer>
-       </p>
         </div> 
         {/*start second div here  */}
         <div className={classes.card}>
@@ -105,9 +103,7 @@ const Welcome = () => {
             </div>
         </div>
         <div>
-        <p>
          <footer></footer>
-       </p>
         </div> 
     </>
   );
