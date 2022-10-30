@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    min-height: 520px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .first_card {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background : linear-gradient(5deg, rgba(15, 50, 247, 0.493) 0%, rgba(15, 50, 247, 0.493) 10.31%, rgba(15, 50, 247, 0.493) 24.34%, rgba(15, 50, 247, 0.493) 40.51%, rgba(15, 50, 247, 0.493) 58.28%, rgba(24, 46, 243, 0.438) 77.37%, rgba(34, 54, 238, 0.329) 97.27%, rgba(28, 31, 237, 0.158) 100%);
+  }
+
+  .inner_card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .heading {
+    margin-top: 2rem;
+    font-size: 2.3rem;
+    color: #106ebe;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .new_heading {
+    color: #106ebe;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .inner_text {
+    margin-top: 6rem;
+  }
+
+  .inner_text h3 {
+    color: #106ebe;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .inner_text p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .phone_logo {
+    height: 15px;
+    width: 15px;
+    margin-right: 0.5rem;
+  }
+
+  .email {
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+
+  .email h3 {
+    color: #106ebe;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .email p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .email_logo {
+    height: 15px;
+    width: 15px;
+    margin-right: 0.6rem;
+  }
+
+  .address {
+    margin-top: 2rem;
+  }
+
+  .address h3 {
+    color: #106ebe;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .address p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .address_logo {
+    height: 15px;
+    width: 15px;
+    margin-right: 0.3rem;
+  }
+
+  .second_card {
+    width: 50%;
+    margin-top: 2rem;
+  }
+
+  .outer_text h1 {
+    margin-right: 70px;
+  }
+
+  .outer_text p {
+    font-size: 12px;
+  }
+  .outer_heading {
+    margin-left: 6rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .details {
+    margin-right: 60px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .description {
+    margin-top: 2px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  input[type=text], input[type=number], input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-family: 'Montserrat', sans-serif;
+  }
+  textarea {
+    width: 70%;
+    margin-left: 60px;
+    height: 150px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .send_btn {
+    float: right;
+    margin-right: 40px;
+    padding: 5px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;  
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .model {
+    height: 410px;
+    width: 150px;
+  }
+
+  .inner_box {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background : -ms-linear-gradient(0deg, rgba(255, 242, 0, 1) 0%, rgba(254, 236, 1, 1) 10.31%, rgba(253, 218, 4, 1) 24.34%, rgba(251, 190, 9, 1) 40.51%, rgba(247, 150, 15, 1) 58.28%, rgba(243, 99, 24, 1) 77.37%, rgba(238, 37, 34, 1) 97.27%, rgba(237, 28, 36, 1) 100%);
+}
+
+  .inner_heading {
+    /* float: left; */
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+
+  .text {
+    margin-left: 25px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  footer {
+    border: none;
+    outline: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: white;
+    background-color: #231F20;
+    text-align: center;
+    cursor: pointer;
+    max-width: 900px;
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  
+.google_map {
+  width: 380px;
+  height: 400px;
+}  
+.second_card h6 {
+  color: #106ebe;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 20px;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.main_heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 18px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .model {
+    width: 150px;
+    height: 125px;
+  }
+  .first_card {
+    width: 100%;
+  }
+  .second_card {
+    width: 100%;
+  }
+  .heading {
+    margin-top: 4rem;
+  }
+  .inner_card {
+    width: 50%;
+  }
+  .inner_text {
+    margin-top: 3rem;
+  }
+  .details {
+    margin-left: 80px;
+  }
+  .description {
+    margin-left: 80px;
+  }
+  .second_card h6 {
+    text-align: center;
+  }
+  .google_map {
+    width: 250px;
+    height: 200px;
+  }    
+}
+
+@media screen and (max-width: 745px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .model {
+    width: 150px;
+    height: 120px;
+    margin-left: 2rem;
+  }
+  .first_card {
+    width: 100%;
+  }
+  .second_card {
+    width: 100%;
+  }
+  .heading {
+    margin-top: 4rem;
+  }
+  .outer_heading {
+    text-align: center;
+    margin-left: 0.2rem;
+  }
+  .inner_card {
+    width: 50%;
+  }
+  .inner_text {
+    margin-top: 3rem;
+  }
+  .details {
+    margin-left: 80px;
+  }
+  .description {
+    margin-left: 80px;
+  }
+  .second_card h6 {
+    text-align: center;
+  }
+  .google_map {
+    width: 300px;
+    height: 200px;
+  }
+  .send_btn {
+    margin-right: 5rem;
+  }    
+}
