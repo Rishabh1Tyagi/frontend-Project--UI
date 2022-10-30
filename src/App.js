@@ -11,8 +11,8 @@ function App() {
       <MainHeader />
       <main>
         <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/contact-us" element={<ContactUs />} />
+          <Route index element={<Welcome />} />
+          <Route path="contact-us" element={<ContactUs />} />
         </Routes>
       </main>
     </div>
