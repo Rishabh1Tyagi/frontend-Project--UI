@@ -11,7 +11,7 @@ function App() {
       <MainHeader />
       <main>
         <Routes>
-          <Route index element={<Welcome />} />
+          <Route exact path="/" element={<Welcome />} />
           <Route path="contact-us" element={<ContactUs />} />
         </Routes>
       </main>
